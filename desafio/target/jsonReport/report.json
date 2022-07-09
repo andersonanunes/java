@@ -1,0 +1,77 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-15T18:00:02.630Z",
+        "line": 14,
+        "name": "Consulta CEP inexistente",
+        "description": "",
+        "id": "consultar-cep-via-api;consulta-cep-inexistente",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4857803900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "que o usuario inseri um CEP que nao exista na base dos Correios",
+            "match": {
+              "location": "stepDefinitions.DesafioApiTestSteps.que_o_usuario_inseri_um_cep_que_nao_exista_na_base_dos_correios()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 269590500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o servico e consultado",
+            "match": {
+              "location": "stepDefinitions.DesafioApiTestSteps.o_servico_e_consultado()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "e retornada um atributo erro",
+            "match": {
+              "location": "stepDefinitions.DesafioApiTestSteps.e_retornada_um_atributo_erro()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@consultarCep"
+          },
+          {
+            "name": "@cenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Consultar CEP via API",
+    "description": "",
+    "id": "consultar-cep-via-api",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/features.feature",
+    "tags": [
+      {
+        "name": "@consultarCep",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.264">
+    <testcase classname="Consultar CEP via API" name="Consulta CEP inexistente" time="5.171">
+        <system-out>
+            <![CDATA[Dado que o usuario inseri um CEP que nao exista na base dos Correios........passed
+Quando o servico e consultado...............................................passed
+Entao e retornada um atributo erro..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
